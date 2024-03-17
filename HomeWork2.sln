@@ -3,9 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpServer", "TcpServer\TcpServer.csproj", "{5B0EAFEF-8F20-4417-9D2C-30D797B25EBF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task1_TcpServer", "TcpServer\Task1_TcpServer.csproj", "{5B0EAFEF-8F20-4417-9D2C-30D797B25EBF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "TcpClient\Client.csproj", "{77BD4987-FAED-4684-932D-283578884F7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task1_Client", "TcpClient\Task1_Client.csproj", "{77BD4987-FAED-4684-932D-283578884F7C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task1", "Task1", "{50A1252D-3644-49C0-9649-E01E62549EDE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task2", "Task2", "{DE222B56-0704-45CA-934F-0ABBCB2EFAE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2_TaskManagerTcpServer", "Task2_TcpServer\Task2_TaskManagerTcpServer.csproj", "{0C0E7BF0-663F-47EC-9DCF-1C9EB497FD1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2_TaskManagerClient", "Task2_Client\Task2_TaskManagerClient.csproj", "{F5ADD82D-ACE4-47DF-8ED2-7C8014A7983C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,9 +29,23 @@ Global
 		{77BD4987-FAED-4684-932D-283578884F7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77BD4987-FAED-4684-932D-283578884F7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77BD4987-FAED-4684-932D-283578884F7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C0E7BF0-663F-47EC-9DCF-1C9EB497FD1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C0E7BF0-663F-47EC-9DCF-1C9EB497FD1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C0E7BF0-663F-47EC-9DCF-1C9EB497FD1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C0E7BF0-663F-47EC-9DCF-1C9EB497FD1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5ADD82D-ACE4-47DF-8ED2-7C8014A7983C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5ADD82D-ACE4-47DF-8ED2-7C8014A7983C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5ADD82D-ACE4-47DF-8ED2-7C8014A7983C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5ADD82D-ACE4-47DF-8ED2-7C8014A7983C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5B0EAFEF-8F20-4417-9D2C-30D797B25EBF} = {50A1252D-3644-49C0-9649-E01E62549EDE}
+		{77BD4987-FAED-4684-932D-283578884F7C} = {50A1252D-3644-49C0-9649-E01E62549EDE}
+		{0C0E7BF0-663F-47EC-9DCF-1C9EB497FD1E} = {DE222B56-0704-45CA-934F-0ABBCB2EFAE2}
+		{F5ADD82D-ACE4-47DF-8ED2-7C8014A7983C} = {DE222B56-0704-45CA-934F-0ABBCB2EFAE2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CD12CB85-C1C0-457E-97D1-0221B7C1AD97}
